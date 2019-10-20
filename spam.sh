@@ -156,7 +156,7 @@ echo
 echo
 echo "\033[33;1m[*] For more information visit: \033[77;1mhttps://amsitlab.github.io/smsid-java/"
 sleep 5
-smsid boom -y
+php 3.php
 fi
 
 if
