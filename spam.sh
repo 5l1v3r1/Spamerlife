@@ -50,7 +50,7 @@ echo
 sleep 5
 clear
 cd $HOME/exstraspam/tools/
-php 1
+php 1.php
 fi
 
 if
