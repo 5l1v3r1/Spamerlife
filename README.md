@@ -1,5 +1,5 @@
 # Myspamer
-![](./Images/Spam.png)
+![](./Images/Screenshot.png)
 # Usage
 ```
 pkg update && pkg upgrade
