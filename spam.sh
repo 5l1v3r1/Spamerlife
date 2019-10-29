@@ -1,6 +1,7 @@
 #!/usr/bin/shell
-# Life Of Programmer
-# Coded By Nedi Senja
+# Spamer
+# Coded By Senja
+# Github: github.com/thesixtynine/Myspamer
 
 clear
 reset
@@ -13,25 +14,27 @@ printf "
 \033[0;33m    ╚════██║██╔═══╝ ██╔══██║██║╚██╔╝██║██╔══╝  ██╔══██╗
 \033[0;33m    ███████║██║     ██║  ██║██║ ╚═╝ ██║███████╗██║  ██║
 \033[0;33m    ╚══════╝╚═╝     ╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝╚═╝  ╚═╝
+\033[0;4;37m  ○● 千尺丨乇几ᗪ丂 ㄒ卄乇 Ꮆ尺卂ㄚ 卄卂ㄒ 爪ㄚ ㄒ乇卂爪 ●○
+
 "
 
 echo
 sleep 1
-echo "\033[0m[\033[91;1m✺\033[0m] Various kinds of tools for spam \033[0m[\033[91;1m✺\033[0m]"
+echo "\033[0m[\033[94;1m#\033[0m] Various kinds of tools for spam"
 sleep 1
-echo "\033[0m[\033[92;1m★\033[0m] Dexa Security Lite \033[0m[\033[92;1m★\033[0m]"
+echo "\033[0m[\033[93;1m*\033[0m] Coded by Senja"
 sleep 1
-echo "\033[0m[\033[93;1m●\033[0m] Spam Available \033[0m[\033[93;1m●\033[0m]"
+echo "\033[0m[\033[96;1m&\033[0m] My Github: @thesixtynine"
 echo
-echo "\033[0m[\033[94;1m1\033[0m] \033[77;1mBukalapak"
-echo "\033[0m[\033[94;1m2\033[0m] \033[77;1mTelkomsel"
-echo "\033[0m[\033[94;1m3\033[0m] \033[77;1mGrab"
-echo "\033[0m[\033[94;1m4\033[0m] \033[77;1mTokopedia"
-echo "\033[0m[\033[94;1m5\033[0m] \033[77;1mCodaShop"
-echo "\033[0m[\033[94;1m6\033[0m] \033[77;1mSurveyon"
-echo "\033[0m[\033[94;1m7\033[0m] \033[77;1mCustom"
-echo "\033[0m[\033[94;1m0\033[0m] \033[77;1mExit"
-echo "\033[0m[\033[96;1mi\033[0m] \033[77;1mThis Tool Information"
+echo "\033[0m[\033[92;1m1\033[0m] \033[77;1mBukalapak"
+echo "\033[0m[\033[92;1m2\033[0m] \033[77;1mTelkomsel"
+echo "\033[0m[\033[92;1m3\033[0m] \033[77;1mGrab"
+echo "\033[0m[\033[92;1m4\033[0m] \033[77;1mTokopedia"
+echo "\033[0m[\033[92;1m5\033[0m] \033[77;1mCodaShop"
+echo "\033[0m[\033[92;1m6\033[0m] \033[77;1mSurveyon"
+echo "\033[0m[\033[92;1m7\033[0m] \033[77;1mCustom"
+echo "\033[0m[\033[92;1m0\033[0m] \033[77;1mExit"
+echo "\033[0m[\033[94;1mi\033[0m] \033[77;1mThis Tool Information"
 echo "\033[77;1m"
 
 read -p "[/] Select option : " ops
