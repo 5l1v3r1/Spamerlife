@@ -132,7 +132,7 @@ printf "\e[0m[\e[1;92m+\e[0m] \e[77;1mSpamm: \e[0mAlpha\n"
 printf "\e[0m[\e[1;93m*\e[0m] \e[77;1mTypes: \e[0mSMS\n"
 printf "\e[0m[\e[1;94m#\e[0m] \e[77;1mCount: \e[0mLimited\n"
 printf "\e[0m[\e[1;95m@\e[0m] \e[77;1mLanguage: \e[0mPython\n"
-printf "\e[0m[\e[1;96m&\e[0m] \e[77;1mCoded by: \e[0mNedi Senja\n"
+printf "\e[0m[\e[1;96m&\e[0m] \e[77;1mCoded by: \e[0mSenja\n"
 echo
 sleep 1.5
 echo
@@ -151,7 +151,7 @@ printf "\e[0m[\e[1;92m+\e[0m] \e[77;1mSpamm: \e[0mBukalapak\n"
 printf "\e[0m[\e[1;93m*\e[0m] \e[77;1mTypes: \e[0mChats WhatsApp\n"
 printf "\e[0m[\e[1;94m#\e[0m] \e[77;1mCount: \e[0mUnlimited\n"
 printf "\e[0m[\e[1;95m@\e[0m] \e[77;1mLanguage: \e[0mPHP\n"
-printf "\e[0m[\e[1;96m&\e[0m] \e[77;1mCoded by: \e[0mNedi Senja\n"
+printf "\e[0m[\e[1;96m&\e[0m] \e[77;1mCoded by: \e[0mSenja\n"
 echo
 sleep 1.5
 echo
@@ -170,7 +170,7 @@ printf "\e[0m[\e[1;92m+\e[0m] \e[77;1mSpamm: \e[0mGrab\n"
 printf "\e[0m[\e[1;93m*\e[0m] \e[77;1mTypes: \e[0mCall\n"
 printf "\e[0m[\e[1;94m#\e[0m] \e[77;1mCount: \e[0mUnlimited\n"
 printf "\e[0m[\e[1;95m@\e[0m] \e[77;1mLanguage: \e[0mPHP\n"
-printf "\e[0m[\e[1;96m&\e[0m] \e[77;1mCoded by: \e[0mNedi Senja\n"
+printf "\e[0m[\e[1;96m&\e[0m] \e[77;1mCoded by: \e[0mSenja\n"
 echo
 sleep 1.5
 echo
@@ -189,7 +189,7 @@ printf "\e[0m[\e[1;92m+\e[0m] \e[77;1mSpamm: \e[0mHooqy\n"
 printf "\e[0m[\e[1;93m*\e[0m] \e[77;1mTypes: \e[0mOTP\n"
 printf "\e[0m[\e[1;94m#\e[0m] \e[77;1mCount: \e[0mUnlimited\n"
 printf "\e[0m[\e[1;95m@\e[0m] \e[77;1mLanguage: \e[0mPython\n"
-printf "\e[0m[\e[1;96m&\e[0m] \e[77;1mCoded by: \e[0mNedi Senja\n"
+printf "\e[0m[\e[1;96m&\e[0m] \e[77;1mCoded by: \e[0mSenja\n"
 echo
 sleep 1.5
 echo
@@ -208,7 +208,7 @@ printf "\e[0m[\e[1;92m+\e[0m] \e[77;1mSpamm: \e[0mOyoroom\n"
 printf "\e[0m[\e[1;93m*\e[0m] \e[77;1mTypes: \e[0mSMS\n"
 printf "\e[0m[\e[1;94m#\e[0m] \e[77;1mCount: \e[0mLimited\n"
 printf "\e[0m[\e[1;95m@\e[0m] \e[77;1mLanguage: \e[0mPython\n"
-printf "\e[0m[\e[1;96m&\e[0m] \e[77;1mCoded by: \e[0mNedi Senja\n"
+printf "\e[0m[\e[1;96m&\e[0m] \e[77;1mCoded by: \e[0mSenja\n"
 echo
 sleep 1.5
 echo
@@ -227,7 +227,7 @@ printf "\e[0m[\e[1;92m+\e[0m] \e[77;1mSpamm: \e[0mTaxi\n"
 printf "\e[0m[\e[1;93m*\e[0m] \e[77;1mTypes: \e[0mCall\n"
 printf "\e[0m[\e[1;94m#\e[0m] \e[77;1mCount: \e[0mUnlimited\n"
 printf "\e[0m[\e[1;95m@\e[0m] \e[77;1mLanguage: \e[0mPython\n"
-printf "\e[0m[\e[1;96m&\e[0m] \e[77;1mCoded by: \e[0mNedi Senja\n"
+printf "\e[0m[\e[1;96m&\e[0m] \e[77;1mCoded by: \e[0mSenja\n"
 echo
 sleep 1.5
 echo
@@ -246,7 +246,7 @@ printf "\e[0m[\e[1;92m+\e[0m] \e[77;1mSpamm: \e[0mTelkomsel\n"
 printf "\e[0m[\e[1;93m*\e[0m] \e[77;1mTypes: \e[0mSMS\n"
 printf "\e[0m[\e[1;94m#\e[0m] \e[77;1mCount: \e[0mUnlimited\n"
 printf "\e[0m[\e[1;95m@\e[0m] \e[77;1mLanguage: \e[0mPython\n"
-printf "\e[0m[\e[1;96m&\e[0m] \e[77;1mCoded by: \e[0mNedi Senja\n"
+printf "\e[0m[\e[1;96m&\e[0m] \e[77;1mCoded by: \e[0mSenja\n"
 echo
 sleep 1.5
 echo
@@ -265,7 +265,7 @@ printf "\e[0m[\e[1;92m+\e[0m] \e[77;1mSpamm: \e[0mTokopedia\n"
 printf "\e[0m[\e[1;93m*\e[0m] \e[77;1mTypes: \e[0mCall\n"
 printf "\e[0m[\e[1;94m#\e[0m] \e[77;1mCount: \e[0mLimited\n"
 printf "\e[0m[\e[1;95m@\e[0m] \e[77;1mLanguage: \e[0mPHP\n"
-printf "\e[0m[\e[1;96m&\e[0m] \e[77;1mCoded by: \e[0mNedi Senja\n"
+printf "\e[0m[\e[1;96m&\e[0m] \e[77;1mCoded by: \e[0mSenja\n"
 echo
 sleep 1.5
 echo
@@ -284,7 +284,7 @@ printf "\e[0m[\e[1;92m+\e[0m] \e[77;1mSpamm: \e[0mTri\n"
 printf "\e[0m[\e[1;93m*\e[0m] \e[77;1mTypes: \e[0mSMS\n"
 printf "\e[0m[\e[1;94m#\e[0m] \e[77;1mCount: \e[0mUnlimited\n"
 printf "\e[0m[\e[1;95m@\e[0m] \e[77;1mLanguage: \e[0mPython\n"
-printf "\e[0m[\e[1;96m&\e[0m] \e[77;1mCoded by: \e[0mNedi Senja\n"
+printf "\e[0m[\e[1;96m&\e[0m] \e[77;1mCoded by: \e[0mSenja\n"
 echo
 sleep 1.5
 echo
