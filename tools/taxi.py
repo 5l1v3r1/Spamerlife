@@ -1,5 +1,5 @@
 #!/usr/bin/python
-# Coded by Nedi Senja
+# Coded by Senja
 # Github: github.com/theaixtynine/Myspamer
 
 from multiprocessing.pool import ThreadPool
