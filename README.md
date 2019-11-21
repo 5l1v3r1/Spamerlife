@@ -5,7 +5,7 @@
 pkg update && pkg upgrade
 apt-get install git
 apt-get install bash
-apt-get install python
+apt-get install python2
 apt-get install php
 git clone https://github.com/thedarksec/Myspamer
 cd Myspamer
