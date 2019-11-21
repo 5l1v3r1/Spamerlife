@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # Coded by Senja
-# Github: github.com/theaixtynine/Myspamer
+# Github: github.com/thedarksec/Myspamer
 
 try:
         import mechanize, os, sys, time
