@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # Coded by Senja
-# Github: github.com/theaixtynine/Myspamer
+# Github: github.com/thedarksec/Myspamer
 
 import os, sys, time, mechanize
 from bs4 import BeautifulSoup as BS
