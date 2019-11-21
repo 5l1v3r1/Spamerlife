@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 # Myspamer
 # Coded by Senja
-# Github: github.com/theaixtynine/Myspamer
+# Github: github.com/thedarksec/Myspamer
 
 checkroot() {
 
@@ -60,7 +60,7 @@ template() {
 echo
 printf "\e[0m[\e[94;1m#\e[0m] Various kinds of tools for spam\n"
 printf "\e[0m[\e[93;1m*\e[0m] Coded by Senja\n"
-printf "\e[0m[\e[96;1m&\e[0m] My Github: @thesixtynine\n"
+printf "\e[0m[\e[96;1m&\e[0m] My Github: @thedarksec\n"
 sleep 1
 echo
 
