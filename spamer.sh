@@ -1,7 +1,7 @@
 #!/usr/bin/bash
-# Myspamer
+# Spamerlife
 # Coded by Senja
-# Github: github.com/thedarksec/Myspamer
+# Github: github.com/thedarksec/Spamerlife
 
 checkroot() {
 
@@ -43,16 +43,12 @@ command -v php > /dev/null 2>&1 || { echo >&2 "I require php but it's not instal
 
 banner() {
 
-printf '\e[77;1m
-       ________              ______  ___
-     ____  ___/_____________ ___   |/  /____________
-      ______ \___  __ \  __ `/_  /|_/ /_  _ \_  ___/
-       ____/ /__  /_/ / /_/ /_  /  / / /  __/  /
-       /____/ _  .___/\__,_/ /_/  /_/  \___//_/
-               /_/
+printf "
 
-'
-
+        \e[0;2;96m█▀▀ █▀█ █▀█ █▄█ █▀▀ █▀▀  \e[0;93m █   ▀█▀ █▀▀ █▀▀
+        \e[0;2;96m▀▀█ █▀▀ █▀█ █ █ █▀▀ █    \e[0;93m █    █  █▀▀ █▀▀
+        \e[0;2;96m▀▀▀ ▀   ▀ ▀ ▀ ▀ ▀▀▀ ▀    \e[0;93m ▀▀▀ ▀▀▀ ▀   ▀▀▀
+"
 }
 
 template() {
