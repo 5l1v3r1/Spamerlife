@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# -*- coding: utf-8 -*-
 # Coded by Senja
 # Github: github.com/thedarksec/Myspamer
 
@@ -15,7 +16,19 @@ class spamer:
                 self.br.set_handle_referer(True)
                 self.br.set_handle_robots(False)
                 self.br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time=1)
-                self.br.addheaders = [('Connection','keep-alive'),('Pragma','no-cache'),('Cache-Control','no-cache'),('Origin','http://sms.payuterus.biz'),('Upgrade-Insecure-Requests','1'),('Content-Type','application/x-www-form-urlencoded'),('User-Agent','Opera/9.80 (Android; Opera Mini/8.0.1807/36.1609; U; en) Presto/2.12.423 Version/12.16'),('Accept','text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'),('Referer','http://sms.payuterus.biz/alpha/'),('Accept-Encoding','gzip, deflate'),('Accept-Language','id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'),('Cookie','_ga=GA1.2.131924726.1560439960; PHPSESSID=jjrqqaakmfcgfgbtjt8tve5595; _gid=GA1.2.1969561921.1561024035; _gat=1')]
+                self.br.addheaders = [
+                ('Connection','keep-alive'),
+                ('Pragma','no-cache'),
+                ('Cache-Control','no-cache'),
+                ('Origin','http://sms.payuterus.biz'),
+                ('Upgrade-Insecure-Requests','1'),
+                ('Content-Type','application/x-www-form-urlencoded'),
+                ('User-Agent','Opera/9.80 (Android; Opera Mini/8.0.1807/36.1609; U; en) Presto/2.12.423 Version/12.16'),
+                ('Accept','text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'),
+                ('Referer','http://sms.payuterus.biz/alpha/'),('Accept-Encoding','gzip, deflate'),
+                ('Accept-Language','id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'),
+                ('Cookie','_ga=GA1.2.131924726.1560439960; PHPSESSID=jjrqqaakmfcgfgbtjt8tve5595; _gid=GA1.2.1969561921.1561024035; _gat=1')
+                ]
                 self.url = 'http://sms.payuterus.biz/alpha/'
                 self.banner()
 
