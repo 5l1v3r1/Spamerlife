@@ -1,5 +1,5 @@
 # Screenshot:
-![](./images/Screenshot.png)
+![](./Screenshot.png)
 # Usage:
 ```
 pkg update && pkg upgrade
@@ -7,8 +7,8 @@ apt-get install git
 apt-get install bash
 apt-get install python2
 apt-get install php
-git clone https://github.com/thedarksec/Myspamer
-cd Myspamer
+git clone https://github.com/thedarksec/Spamerlife
+cd Spamerlife
 ls
 bash spamer.sh
 ```
