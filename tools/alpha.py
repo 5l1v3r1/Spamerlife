@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 # Coded by Senja
-# Github: github.com/thedarksec/Myspamer
+# Github: github.com/stepbystepexe/Spamerlife
 
 import os, sys, time, mechanize
 from bs4 import BeautifulSoup as BS
