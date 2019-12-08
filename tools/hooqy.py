@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 # Coded by Senja
-# Github: github.com/thedarksec/Myspamer
+# Github: github.com/stepbystepexe/Spamerlife
 
 try:
         import mechanize, os, sys, time
