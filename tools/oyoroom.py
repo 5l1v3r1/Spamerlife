@@ -1,10 +1,4 @@
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
-# Coded by Senja
-# Github: github.com/stepbystepexe/Spamerlife
-
 import requests, os
-
 no=input("\033[0m[\033[1;32m+\033[0m] \033[1;77mInput No Target: \033[0m")
 while True:
         idk=('status')
