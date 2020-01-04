@@ -1,8 +1,3 @@
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
-# Coded by Senja
-# Github: github.com/stepbystepexe/Spamerlife
-
 from multiprocessing.pool import ThreadPool
 try:
         import os, random
@@ -12,7 +7,6 @@ try:
 except ModuleNotFoundError:
         print("\n\033[0m[\033[1;31m!\033[0m] \033[1;77mModule requests not installed\n")
         exit(1)
-
 try:
         no = input("\033[0m[\033[1;32m+\033[0m] \033[1;77mInput No Target: \033[0m")
         jum=int(input("\033[0m[\033[1;35m?\033[0m] \033[1;77mCount: \033[0m"))
@@ -31,7 +25,6 @@ def main(arg):
                 else:
                         print("\033[0m[\033[1;31m!\033[0m] \033[1;77mFailed")
         except: pass
-
 jobs = []
 for x in range(jum):
     jobs.append(x)
