@@ -1,11 +1,5 @@
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
-# Coded by Senja
-# Github: github.com/stepbystepexe/Spamerlife
-
 import os, sys, time, mechanize
 from bs4 import BeautifulSoup as BS
-
 class spamer:
         def __init__(self):
                 #install browser
@@ -31,12 +25,10 @@ class spamer:
                 ]
                 self.url = 'http://sms.payuterus.biz/alpha/'
                 self.banner()
-
         def banner(self):
                 no = input('\033[0m[\033[0m\033[1;32m+\033[0m] \033[1;77mInput No Target: \033[0m')
                 msg = input('\033[0m[\033[0m\033[1;34m~\033[0m] \033[1;77mMesagee: \033[0m')
                 self.main(no,msg)
-
         def main(self,no,msg):
                 o = []
                 bs = BS(self.br.open(self.url),features = 'html.parser')
@@ -56,7 +48,6 @@ class spamer:
                         print('\033[0m[\033[0m\033[1;31m!\033[0m] \033[1;77mPlease wait as the message')
                 else:
                         print('\033[0m[\033[0m\033[1;31m-\033[0m] \033[1;77mSend failed the \033[0m',no)
-
 try:
         spamer()
         while True:
