@@ -12,7 +12,7 @@ function send($phone){
         curl_close($ch);
                 echo $asw."\n";
 }
-echo "\033[0m[\033[1;92m+\033[0m] \033[1;77mInput No Target: \033[0m";
+echo "\033[0m[\033[1;92m+\033[0m] \033[1;77mMasukan Nomor Target: \033[0m";
 $nomor = trim(fgets(STDIN));
 $execute = send($nomor);
 print $execute;
