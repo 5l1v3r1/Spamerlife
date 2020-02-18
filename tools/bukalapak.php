@@ -1,5 +1,5 @@
 <?php
-echo "\033[0m[\033[1;92m+\033[0m] \033[1;77mInput No Target: \033[0m";
+echo "\033[0m[\033[1;92m+\033[0m] \033[1;77mMasukan Nomor Target: \033[0m";
 $nomer = trim(fgets(STDIN));
 if(strlen($nomer)==11){
         $nomer = str_replace("0","62".$nomer);
@@ -8,8 +8,8 @@ if(strlen($nomer)==11){
 }
 echo "\033[0m[\033[1;93m*\033[0m] \033[1;77mTarget: \033[0m$nomer \033[1;77m[Y/n]: \033[0m";
 $cek = trim(fgets(STDIN));
-if($cek=="n") exit("\033[0m[\033[1;91m!\033[0m] \033[1;77mStopped\n");
-echo "\033[0m[\033[1;95m?\033[0m] \033[1;77mCount: \033[0m";
+if($cek=="n") exit("\033[0m[\033[1;91m!\033[0m] \033[1;77mBerhenti\n");
+echo "\033[0m[\033[1;95m?\033[0m] \033[1;77mJumlah: \033[0m";
 $jumlah = trim(fgets(STDIN));
 for($a=0;$a<$jumlah;$a++) {
         $rand1 = md5(rand(12345678,98765432));
@@ -52,6 +52,6 @@ Cookie: identity=".$rand1."; browser_id=".$rand2."; _ga=GA1.2.1024758930.1531960
         curl_close($ch);
         echo "
 ";
-        print "\033[0m[\033[1;94m$a\033[0m] $nomer \033[0m[=\033[1;96m Sending \033[0m=]\n";
+        print "\033[0m[\033[1;94m$a\033[0m] $nomer \033[0m[=\033[1;96m Mengirim \033[0m=]\n";
 
 }
