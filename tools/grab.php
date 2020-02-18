@@ -40,13 +40,13 @@ class prankcall {
         if (empty($ekse['challengeID'])) {
             echo "
 ";
-            echo "\033[0m[\033[1;31m!\033[0m] \033[1;77mExit the program!";
+            echo "\033[0m[\033[1;31m!\033[0m] \033[1;77mKeluar dari program!";
             echo "
 ";
             echo "
 ";
         } else {
-            echo "\033[0m[\033[1;36m+\033[0m] \033[1;77mSuccess
+            echo "\033[0m[\033[1;36m+\033[0m] \033[1;77mBerhasil
 ";
         }
     }
@@ -77,13 +77,13 @@ class prankcall {
                 continue;
             } else {
                 $nn = $a + 1;
-                echo "\033[0m[\033[1;36m$nn\033[0m] \033[1;77mSend spam success
+                echo "\033[0m[\033[1;36m$nn\033[0m] \033[1;77mBerhasil mengirim spam
 ";
                 $a++;
             }
             if ($sleep != null) sleep($sleep);
             if ($a >= $many) echo "\033[1;36m
-\033[0m[\033[1;36m^_^\033[0m] \033[1;77mSpam Success \033[0m[\033[36;1m^_^\033[0m]
+\033[0m[\033[1;36m^_^\033[0m] \033[1;77mSepam berhasil \033[0m[\033[36;1m^_^\033[0m]
 
 
 ";
@@ -99,18 +99,18 @@ class prankcall {
     }
     public function run() {
         while (true) {
-            echo "\033[0m[\033[1;35m?\033[0m] \033[1;77mWant to continue spam ? \033[0m[Y/T]: \033[1;77m";
+            echo "\033[0m[\033[1;35m?\033[0m] \033[1;77mLanjut untuk spam ? \033[0m[Y/T]: \033[1;77m";
             $loop = $this->get();
-            if ($loop == "y" OR $loop == "t") {
+            if ($loop == "y" OR $loop == "n") {
                 break;
             } else {
-                echo "\033[0mIf yes answer [Y] If not answer [T]
+                echo "\033[0mJika ya jawab [Y] Jika tidak jawab [N]
 ";
                 continue;
             }
         }
         if ($loop == "y") {
-            echo "\033[0m[\033[0m\033[1;33m/\033[0m] \033[1;77mThe amount of spam: \033[0m";
+            echo "\033[0m[\033[0m\033[1;33m/\033[0m] \033[1;77mJumlah spam: \033[0m";
             $many = $this->get();
             $this->loop($many);
         } else {
@@ -118,7 +118,7 @@ class prankcall {
         }
     }
 }
-echo "\033[0m[\033[1;32m+\033[0m] \033[1;77mEnter the target: \033[0m";
+echo "\033[0m[\033[1;32m+\033[0m] \033[1;77mMasukan Nomor Target: \033[0m";
 $no = get();
 $n = new prankCall($no);
 $n->run();
