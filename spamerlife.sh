@@ -50,15 +50,16 @@ template(){
     printf "\n\e[0;46;90;1m[        Spamer Life, My Github: @stepbystepexe         ]\e[0m\n\n"
 }
 menu() {
-    printf "\e[0m[\e[96;1m1\e[0m] \e[77;1mAlpha         \e[0m[\e[96;1m4\e[0m] \e[77;1mHooqy       \e[0m[\e[96;1m7\e[0m] \e[77;1mTelkomsel\n"
-    printf "\e[0m[\e[96;1m2\e[0m] \e[77;1mBukalapak     \e[0m[\e[96;1m5\e[0m] \e[77;1mOyoroom     \e[0m[\e[96;1m8\e[0m] \e[77;1mTokopedia\n"
-    printf "\e[0m[\e[96;1m3\e[0m] \e[77;1mGrab          \e[0m[\e[96;1m6\e[0m] \e[77;1mTaxi        \e[0m[\e[96;1m9\e[0m] \e[77;1mTri\n"
+    printf "\e[0m[\e[96;1;2m1\e[0m] \e[77;1mAlpha         \e[0m[\e[96;1;2m4\e[0m] \e[77;1mHooqy       \e[0m[\e[96;1;2m7\e[0m] \e[77;1mTelkomsel\n"
+    printf "\e[0m[\e[96;1;2m2\e[0m] \e[77;1mBukalapak     \e[0m[\e[96;1;2m5\e[0m] \e[77;1mOyoroom     \e[0m[\e[96;1;2m8\e[0m] \e[77;1mTokopedia\n"
+    printf "\e[0m[\e[96;1;2m3\e[0m] \e[77;1mGrab          \e[0m[\e[96;1;2m6\e[0m] \e[77;1mTaxi        \e[0m[\e[96;1;2m9\e[0m] \e[77;1mTri\n"
     echo
     printf "\e[0m[\e[93;1m&\e[0m] LISENSI\n"
     printf "\e[0m[\e[94;1m#\e[0m] Informasi\n"
     printf "\e[0m[\e[92;1m*\e[0m] Perbarui\n"
     printf "\e[0m[\e[91;1m-\e[0m] Keluar\n"
-        read -p $'\n\n\e[0m[\e[1;95m/\e[0m\e[0m] \e[1;77mMasukan opsi: \e[0m\en' option
+    echo
+        read -p $'\e[0m(\e[105;77;1m/\e[0m) \e[1;77mMasukan opsi: \e[0m\en' option
             if [[ $option == 01 || $option == 1 ]]; then
             alpha
                 elif [[ $option == 02 || $option == 2 ]]; then
@@ -93,7 +94,7 @@ menu() {
         echo
         git pull origin master
         echo
-        read -p $'\e[0m[\e[92m Tekan Enter \e[0m]'
+        read -p $'\e[0m[\e[32m Tekan Enter \e[0m]'
         clearscreen
         banner
         template
