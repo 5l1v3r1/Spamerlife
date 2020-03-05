@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 # Spamerlife
 # Coded by Nedi Senja
 # Github: https://github.com/stepbystepexe/Spamerlife
