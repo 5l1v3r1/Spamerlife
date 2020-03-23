@@ -1,5 +1,5 @@
 # Spamerlife:
-*Spam adalah kegiatan mengirimkan pesan kepada orang lain dengan menggunakan perangkat elektronik secara terus-menerus dan dengan jumlah yang masif tanpa kehendaki oleh penerimanya, aktivitas spam ini disebut dengan spamming dan pelakunya disebut dengan spammer.*
+**```Spam```** adalah kegiatan mengirimkan pesan kepada orang lain dengan menggunakan perangkat elektronik secara terus-menerus dan dengan jumlah yang masif tanpa kehendaki oleh penerimanya, aktivitas spam ini disebut dengan spamming dan pelakunya disebut dengan spammer.
 #### Screenshot:
 ![](./Skrinsut.png)
 #### Cara Menginstall:
