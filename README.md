@@ -29,12 +29,12 @@
 
 ### Informasi:
 ```text
-Nama        : Calculator
-Versi       : 3.1 (Update: 15 September 2020, 3:00 AM)
-Tanggal     : 05 Maret 2019
+Nama        : Spamerlife
+Versi       : 3.5 (Update: 13 September 2020, 4:30 PM)
+Tanggal     : 02 Maret 2019
 Author      : Nedi Senja
-Tujuan      : Sengaja di encrypt
-              biar bada giat belajar
+Tujuan      : Menyepam target korban
+              kumpulan spam terbaru
 Terimakasih : Allah SWT.
               FR13NDS, & seluruh
               manusia seplanet bumi
