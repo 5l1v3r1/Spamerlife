@@ -2,14 +2,14 @@
 <h5 align="center">Spam adalah kegiatan mengirimkan pesan kepada orang lain dengan menggunakan perangkat elektronik secara terus-menerus dan dengan jumlah yang masif tanpa kehendaki oleh penerimanya, aktivitas spam ini disebut dengan spamming dan pelakunya disebut dengan spammer.</h5>
 
 <p align="center">
-  <a href="https://www.python.org">
-    <img src="https://img.shields.io/badge/Language-Python3-blue.svg">
+  <a href="https://gnu.org/software/bash/">
+    <img src="https://img.shields.io/badge/Language-Shell-success.svg">
   </a>
   <a href="https://github.com/stepbystepexe/Spamerlife/blob/master/LICENSE">
-    <img src="https://img.shields.io/badge/License-MIT-red.svg">
+    <img src="https://img.shields.io/badge/License-GPL%203-red.svg">
   </a>
   <a href="https://opensource.org">
-    <img src="https://img.shields.io/badge/Open%20Source-●-success.svg">
+    <img src="https://img.shields.io/badge/Open%20Source-●-blue.svg">
   </a>
 </p>
 
